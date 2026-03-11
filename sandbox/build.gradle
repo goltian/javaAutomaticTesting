@@ -4,3 +4,11 @@ apply plugin: 'application'
 application {
     mainClass = 'MyFirstProgramm'
 }
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.testng:testng:7.12.0")
+}
