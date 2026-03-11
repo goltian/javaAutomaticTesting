@@ -9,14 +9,11 @@ public class MyFirstProgrammHelloWorld {
         printSmth("Hello and welcome!");
 
         Square someSquare = new Square(5.0);
-        printSmth("Площадь квадрата: " + area(someSquare));
+        printSmth("Площадь квадрата: " + someSquare.area());
     }
 
     public static void printSmth(String smth) {
         System.out.println(smth);
     }
 
-    public static double area (Square s) {
-        return s.length * s.length;
-    }
 }
