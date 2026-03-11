@@ -4,9 +4,22 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/javaAutomaticTesting/firstProgramHelloWorld" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/javaAutomaticTesting/firstProgramHelloWorld" />
+          </set>
+        </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/sandbox2" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>
