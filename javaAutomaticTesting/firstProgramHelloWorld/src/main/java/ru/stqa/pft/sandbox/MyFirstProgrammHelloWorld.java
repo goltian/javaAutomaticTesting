@@ -8,14 +8,15 @@ public class MyFirstProgrammHelloWorld {
         // to see how IntelliJ IDEA suggests fixing it.
         printSmth("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            printSmth("i = " + i);
-        }
+        Square someSquare = new Square(5.0);
+        printSmth("Площадь квадрата: " + area(someSquare));
     }
 
     public static void printSmth(String smth) {
         System.out.println(smth);
+    }
+
+    public static double area (Square s) {
+        return s.length * s.length;
     }
 }
